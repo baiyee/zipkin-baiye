@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gateway-service" />
-        <module name="zipkin" />
         <module name="sleuth-m" />
-        <module name="eureka" />
         <module name="user-service" />
+        <module name="zipkin" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
